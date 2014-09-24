@@ -11,7 +11,10 @@
         }
         .sla-plan-column {
             text-align: center;
-            width: 10rem;;
+            width: 10rem;
+        }
+        .sla-number-column {
+            width: 3.5rem;
         }
         .check-icon::before {
             content: "\f00c";
@@ -29,63 +32,73 @@
 <table class="table table-condensed table-striped table-hover" style="margin-top: 4rem;">
     <tbody>
     <tr>
+        <th></th>
         <th><h4>Development process</h4></th>
         <th class="sla-plan-column"><h4 style="white-space: nowrap;"><em><strong>Buy me a beer</strong></em></h4></th>
         <th class="sla-plan-column"><h4><em><strong>$</strong></em></h4></th>
         <th class="sla-plan-column"><h4><em><strong>$$$</strong></em></h4></th>
     </tr>
     <tr>
-        <td><em>You</em> will decide <em>WHEN</em> the requirement is to be delivered, and I will mostly say "no problem!" and then do it on time</td>
+        <td class="sla-number-column"><em><span class="pull-right">1.</span></em></td>
+        <td><em>You</em> will decide <em>WHEN</em> the requirement is to be delivered, and I will mostly say "no problem" and then do it on time!</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">2.</span></em></td>
         <td>We will together discuss and decide <em>IF</em> and <em>WHEN</em> the requirement is to be delivered</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td><em>I</em> will decide <em>IF</em> and <em>WHEN</em> the requirement is to be delivered</td>
+        <td class="sla-number-column"><em><span class="pull-right">3.</span></em></td>
+        <td>We will together discuss and decide, but then <em>I</em> will decide <em>IF</em> and <em>WHEN</em> the requirement is to be delivered</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td>Progress reports (on your format of choice)</td>
-        <td class="sla-plan-column"></td>
-        <td class="sla-plan-column"><i class="check-icon"></i></td>
-        <td class="sla-plan-column"><i class="check-icon"></i></td>
-    </tr>
-    <tr>
+        <td class="sla-number-column"><em><span class="pull-right">4.</span></em></td>
         <td>Available issue tracking and project metrics</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">5.</span></em></td>
         <td>Available source code</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">6.</span></em></td>
         <td>Open-source license</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">7.</span></em></td>
         <td>Proprietary license</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">8.</span></em></td>
+        <td>Custom progress reports (on your format of choice)</td>
+        <td class="sla-plan-column"></td>
+        <td class="sla-plan-column"><i class="check-icon"></i></td>
+        <td class="sla-plan-column"><i class="check-icon"></i></td>
+    </tr>
+    <tr>
+        <td class="sla-number-column"><em><span class="pull-right">9.</span></em></td>
         <td>Non-disclosure agreement</td>
         <td class="sla-plan-column"></td>
-        <td class="sla-plan-column"></i></td>
+        <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     </tbody>
@@ -95,102 +108,119 @@
 <table class="table table-condensed table-striped table-hover" style="margin-top: 5rem;">
     <tbody>
     <tr>
+        <th></th>
         <th><h4>User experience (UX)</h4></th>
         <th class="sla-plan-column"><h4 style="white-space: nowrap;"><em><strong>Buy me a beer</strong></em></h4></th>
         <th class="sla-plan-column"><h4><em><strong>$</strong></em></h4></th>
         <th class="sla-plan-column"><h4><em><strong>$$$</strong></em></h4></th>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">10.</span></em></td>
         <td>Custom domain name and URLs</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">11.</span></em></td>
         <td>Basic support for most browsers</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">12.</span></em></td>
         <td>Full browser support: Chrome</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">13.</span></em></td>
         <td>Full browser support: Firefox, and Internet Explorer (version 10 and above)</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">14.</span></em></td>
         <td>Full browser support: Opera, Safari, Android Browser, Internet Explorer (version 9)</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">15.</span></em></td>
         <td>Full browser support: Internet Explorer (version 8 and below)</td>
         <td colspan="3">
             <span class="pull-right" style="font-size:smaller;white-space: nowrap;margin-right: 3rem;"><em>Make me an offer I can't refuse</em></span>
         </td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">16.</span></em></td>
         <td>Support for most screen sizes (PC, laptop, tablet, mobile)</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">17.</span></em></td>
         <td>Support for <em>all</em> screen sizes</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">18.</span></em></td>
         <td>Support for touch devices</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">19.</span></em></td>
         <td>Mean response time: < 2 sec</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">20.</span></em></td>
         <td>Mean response time: < 1 sec</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">21.</span></em></td>
         <td>Mean response time: < 0.5 sec</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td>"Worst case" response time: < 10 sec</td>
+        <td class="sla-number-column"><em><span class="pull-right">22.</span></em></td>
+        <td>"Worst case" response time: < 8 sec</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td>"Worst case" response time: < 5 sec</td>
+        <td class="sla-number-column"><em><span class="pull-right">23.</span></em></td>
+        <td>"Worst case" response time: < 4 sec</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">24.</span></em></td>
         <td>"Worst case" response time: < 2 sec</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">25.</span></em></td>
         <td>"Worst case" response time: < 1 sec</td>
         <td colspan="3">
             <span class="pull-right" style="font-size:smaller;white-space: nowrap;margin-right: 3rem;"><em>Make me an offer I can't refuse</em></span>
@@ -203,66 +233,77 @@
 <table class="table table-condensed table-striped table-hover" style="margin-top: 5rem;">
     <tbody>
     <tr>
+        <th></th>
         <th><h4>Operations and support</h4></th>
         <th class="sla-plan-column"><h4 style="white-space: nowrap;"><em><strong>Buy me a beer</strong></em></h4></th>
         <th class="sla-plan-column"><h4><em><strong>$</strong></em></h4></th>
         <th class="sla-plan-column"><h4><em><strong>$$$</strong></em></h4></th>
     </tr>
     <tr>
-        <td>Availability: 97% (better than "one nine", max downtime per year: 10.96 days)</td>
+        <td class="sla-number-column"><em><span class="pull-right">26.</span></em></td>
+        <td>Availability: 99% ("two nines", max downtime per year: 3.65 days)</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td>Availability: 99% ("two nines", max downtime per year: 3.65 days)</td>
+        <td class="sla-number-column"><em><span class="pull-right">27.</span></em></td>
+        <td>Availability: 99.9% ("three nines", max downtime per year: 8.76 hours)</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td>High availability: "three nines" and beyond</td>
+        <td class="sla-number-column"><em><span class="pull-right">28.</span></em></td>
+        <td>High availability ("four nines" and beyond)</td>
         <td colspan="3">
             <span class="pull-right" style="font-size:smaller;white-space: nowrap;margin-right: 3rem;"><em>Make me an offer I can't refuse</em></span>
         </td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">29.</span></em></td>
         <td>Storage: < 100 MB</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">30.</span></em></td>
         <td>Storage: > 100 MB</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">31.</span></em></td>
         <td>Storage: > 10 GB</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
-        <td>Backup services</td>
+        <td class="sla-number-column"><em><span class="pull-right">32.</span></em></td>
+        <td>Backup services (guaranteed no data loss)</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">33.</span></em></td>
         <td>Bug reporting/Issue tracking</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">34.</span></em></td>
         <td>Online support, UTC day-time</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
+        <td class="sla-number-column"><em><span class="pull-right">35.</span></em></td>
         <td>Online support, 24/7</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
@@ -270,5 +311,15 @@
     </tr>
     </tbody>
 </table>
+
+<footer style="text-align:center;margin-bottom:2rem;">
+    <hr>
+    <span style="margin-right: 2rem;float: right !important;}">
+        <span style="font-size: large;">(</span>
+        <a href="https://github.com/eirikt/eirikt.github.io" target="_new">v1.0</a>
+        <span style="font-size: large;">)</span>
+    </span>
+</footer>
+
 </body>
 </html>
