@@ -6,17 +6,21 @@
         body {
             color: #5c5c5c;
         }
+
         .centered {
             text-align: center;
         }
+
         .sla-plan-column {
             text-align: center;
             width: 10rem;
         }
+
         .sla-number-column {
             width: 3.5rem;
         }
-        .check-icon::before {
+
+         .check-icon::before {
             content: "\f00c";
             font-family: FontAwesome, sans-serif;
             font-size: larger;
@@ -26,7 +30,7 @@
 </head>
 <html>
 <body>
-<h2 class="centered">My Service Level Agreement (SLA) plans</h2>
+<h2 class="centered ">My Service Level Agreement (SLA) plans</h2>
 <h4 class="centered">Make a choice - give me a call</h4>
 
 <table class="table table-condensed table-striped table-hover" style="margin-top: 4rem;">
@@ -35,12 +39,14 @@
         <th></th>
         <th><h4>Development process</h4></th>
         <th class="sla-plan-column"><h4 style="white-space: nowrap;"><em><strong>Buy me a beer</strong></em></h4></th>
-        <th class="sla-plan-column"><h4><em><strong>$</strong></em></h4></th>
-        <th class="sla-plan-column"><h4><em><strong>$$$</strong></em></h4></th>
+        <th class="sla-plan-column"><h4><em><strong>$<sup>&nbsp;1)</sup></strong></em></h4></th>
+        <th class="sla-plan-column"><h4><em><strong>$$$<sup>&nbsp;2)</sup></strong></em></h4></th>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">1.</span></em></td>
-        <td><em>You</em> will decide <em>WHEN</em> the requirement is to be delivered, and I will mostly say "no problem" and then do it on time!</td>
+        <td><em>You</em> will decide
+            <em>WHEN</em> the requirement is to be delivered, and I will mostly say "you got it, Sir" and deliver it on time!
+        </td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
@@ -50,14 +56,16 @@
         <td>We will together discuss and decide <em>IF</em> and <em>WHEN</em> the requirement is to be delivered</td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
-        <td class="sla-plan-column"><i class="check-icon"></i></td>
+        <td class="sla-plan-column"></td>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">3.</span></em></td>
-        <td>We will together discuss and decide, but then <em>I</em> will decide <em>IF</em> and <em>WHEN</em> the requirement is to be delivered</td>
+        <td>We will together discuss and decide, but then <em>I</em> will decide <em>IF</em> and
+            <em>WHEN</em> the requirement is to be delivered
+        </td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
-        <td class="sla-plan-column"><i class="check-icon"></i></td>
-        <td class="sla-plan-column"><i class="check-icon"></i></td>
+        <td class="sla-plan-column"></td>
+        <td class="sla-plan-column"></td>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">4.</span></em></td>
@@ -290,7 +298,7 @@
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">33.</span></em></td>
-        <td>Bug reporting/Issue tracking</td>
+        <td>Bug reporting / Issue tracking</td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
@@ -312,13 +320,27 @@
     </tbody>
 </table>
 
-<footer style="text-align:center;margin-bottom:2rem;">
+<footer style="text-align:center;margin-bottom:4rem;">
     <hr>
-    <span style="margin-right: 2rem;float: right !important;}">
-        <span style="font-size: large;">(</span>
-        <a href="https://github.com/eirikt/eirikt.github.io" target="_new">v1.0</a>
-        <span style="font-size: large;">)</span>
-    </span>
+    <div class="clearfix">
+        <span class="pull-left" style="margin-left: 1rem;">
+            <sup>1)</sup>
+            <span>"Will code for food" / expenses coverage</span>
+        </span>
+    </div>
+    <div class="clearfix">
+        <span class="pull-left" style="margin-left: 1rem;">
+            <sup>2)</sup>
+            <span>More or less regular consultant rates</span>
+        </span>
+    </div>
+    <div>
+        <span class="pull-right" style="margin-right: 3rem;">
+            <span style="font-size: large;">(</span>
+            <a href="https://github.com/eirikt/eirikt.github.io" target="_new">v1.1</a>
+            <span style="font-size: large;">)</span>
+        </span>
+    </div>
 </footer>
 
 </body>
