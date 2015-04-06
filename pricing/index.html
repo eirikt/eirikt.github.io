@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <style>
         body {
+            font-family: sans-serif;
             color: #5c5c5c;
         }
         .centered {
@@ -27,7 +28,8 @@
 <html>
 <body>
 <h2 class="centered ">My Service Level Agreement (<a href="http://en.wikipedia.org/wiki/Service-level_agreement">SLA</a>) plans</h2>
-<h4 class="centered">make a choice - <a href="https://github.com/eirikt">give me a call</a></h4>
+<div class="centered" style="font-size:18px;font-style:italic;margin-top:-8px;">for web applications</div>
+<h4 class="centered" style="margin-top:2rem;">pick your plan - <a href="https://github.com/eirikt">give me a call</a></h4>
 
 <table class="table table-condensed table-striped table-hover" style="margin-top: 4rem;">
     <tbody>
@@ -200,14 +202,14 @@
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">22.</span></em></td>
-        <td>Web Content Accessibility, <a href="http://www.w3.org/WAI/intro/wcag">WCAG 2.0</a> (Level A) compliance<sup>&nbsp;3)</sup></td>
+        <td>Usability testing<sup>&nbsp;3)</sup></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">23.</span></em></td>
-        <td>Web Content Accessibility, <a href="http://www.w3.org/WAI/intro/wcag">WCAG 2.0</a> (Level AA) compliance<sup>&nbsp;3)</sup></td>
+        <td>Web Content Accessibility, <a href="http://www.w3.org/WAI/intro/wcag">WCAG 2.0</a> (Level A-AAA) compliance<sup>&nbsp;4)</sup></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
@@ -277,27 +279,27 @@
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">31.</span></em></td>
         <td>Encrypted data traffic</td>
-        <td class="sla-plan-column"><i class="check-icon"><sup>&nbsp;4)</sup></i></td>
+        <td class="sla-plan-column"><i class="check-icon"><sup>&nbsp;5)</sup></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">32.</span></em></td>
         <td>Server <em>identity verification</em> (also known as <em><a href="http://en.wikipedia.org/wiki/Authentication">authentication</a></em>)</td>
-        <td class="sla-plan-column"><i class="check-icon"><sup>&nbsp;4)</sup></i></td>
+        <td class="sla-plan-column"><i class="check-icon"><sup>&nbsp;5)</sup></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">33.</span></em></td>
-        <td>User/Client <em>identity verification</em> (also known as <em><a href="http://en.wikipedia.org/wiki/Authentication">authentication</a></em>) via password-based log-in procedures<sup>&nbsp;5)</sup></td>
+        <td>User/Client <em>identity verification</em> (also known as <em><a href="http://en.wikipedia.org/wiki/Authentication">authentication</a></em>) via password-based log-in procedures<sup>&nbsp;6)</sup></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
     </tr>
     <tr>
         <td class="sla-number-column"><em><span class="pull-right">34.</span></em></td>
-        <td>Single Sign-On (<a href="http://en.wikipedia.org/wiki/Single_sign-on">SSO</a>)<sup>&nbsp;6)</sup></td>
+        <td>Single Sign-On (<a href="http://en.wikipedia.org/wiki/Single_sign-on">SSO</a>)<sup>&nbsp;7)</sup></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"></td>
         <td class="sla-plan-column"><i class="check-icon"></i></td>
@@ -463,24 +465,32 @@
     <div class="clearfix">
         <span class="pull-left" style="margin-left: 1rem;">
             <sup>3)</sup>
-            <span>Verified by <a href="http://achecker.ca/checker/index.php">this checker service</a></span>
+            <span>External test bodies to be freely picked by you, e.g. <a href="http://theuserisdrunk.com">http://theuserisdrunk.com</a></span>
+
+            </span>
         </span>
     </div>
     <div class="clearfix">
         <span class="pull-left" style="margin-left: 1rem;">
             <sup>4)</sup>
-            <span>But you probably don't want this on the cheapest price plan as it will look weird without a valid HTTPS certificate (12.)</span>
+            <span>External test/acceptance bodies to be freely picked by you, formal verification to be performed by <a href="http://achecker.ca/checker/index.php">this checker service</a></span>
         </span>
     </div>
     <div class="clearfix">
         <span class="pull-left" style="margin-left: 1rem;">
             <sup>5)</sup>
-            <span>Inclusion of <a href="http://en.wikipedia.org/wiki/CAPTCHA">CAPTCHA</a> is possible</span>
+            <span>But you probably don't want this on the cheapest price plan as it will look weird without a valid HTTPS certificate (12.)</span>
         </span>
     </div>
     <div class="clearfix">
         <span class="pull-left" style="margin-left: 1rem;">
             <sup>6)</sup>
+            <span>Inclusion of <a href="http://en.wikipedia.org/wiki/CAPTCHA">CAPTCHA</a> is possible</span>
+        </span>
+    </div>
+    <div class="clearfix">
+        <span class="pull-left" style="margin-left: 1rem;">
+            <sup>7)</sup>
             <span>Via well-known federated identity provider(s), e.g. Facebook, Google, LinkedIn, and/or Twitter</span>
         </span>
     </div>
